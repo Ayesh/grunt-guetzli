@@ -1,0 +1,9 @@
+{
+  "name": "grunt-guetzli",
+  "version": "0.0.1",
+  "description": "Grunt plugin to convert JPG and PNG images according to Google's Guetzli algorithm. ",
+  "main": "index.js",
+  "repository": "git@github.com:Ayesh/grunt-guetzli.git",
+  "author": "Ayesh Karunaratne <ayesh@ayesh.me>",
+  "license": "MIT"
+}
