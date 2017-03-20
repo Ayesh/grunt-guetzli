@@ -3,7 +3,7 @@ Grunt plugin to compress JPG and PNG images according to Google's **Guetzli** al
 
 ![grunt-guetzli in action](https://media.giphy.com/media/l4FGsinhgyIt8IMfu/giphy.gif)
 
-##Installation
+## Installation
 
 You need to have the Guetzli plugin compiled yourself first. This plugin depends on that binary
 
