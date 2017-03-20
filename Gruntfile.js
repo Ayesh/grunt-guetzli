@@ -15,11 +15,15 @@ module.exports = function(grunt) {
           test: ['tmp/images-optimized']
         },
         guetzli: {
-          files: ['tmp/images/*.jpg', 'tmp/images-optimized/*.png'],
-          options: {
-            verbose: true,
-            quality: 80
-          }
+            files: {
+                expand: true,
+                src: 'tmp/images/*.jpg',
+                dest: 'tmp/images-optimized'
+            },
+            options: {
+                verbose: false,
+                quality: 84
+            }
     }
 
   });
@@ -31,6 +35,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
 
   // test task.
-  grunt.registerTask('test', ['clean', 'guetzli']);
+  grunt.registerTask('test', ['guetzli']);
 
 };
