@@ -17,7 +17,6 @@
 'use strict';
 
 module.exports = function(grunt) {
-    grunt.log.header = function () {};
   var path = require('path');
   var async = require('async');
   var fs = require('fs');
