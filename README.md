@@ -5,7 +5,7 @@ Grunt plugin to compress JPG and PNG images according to Google's **Guetzli** al
 
 ##Installation
 You need to have the Guetzli plugin compiled yourself first. This plugin depends on that binary
-. 
+
 Run `npm install --save grunt-guetzli`.
 
 This will install the `grunt-guetzli` plugin and its `grunt` dependency if not already installed. 
