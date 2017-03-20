@@ -24,7 +24,7 @@ module.exports = function(grunt) {
                 verbose: false,
                 quality: 84
             }
-    }
+        }
 
   });
 

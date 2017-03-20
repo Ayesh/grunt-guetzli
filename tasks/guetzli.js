@@ -21,7 +21,7 @@ module.exports = function(grunt) {
   var path = require('path');
   var async = require('async');
   var fs = require('fs');
-  grunt.registerMultiTask('guetzli', "Converts JPG and PNG images according to Google's Guetzli algorithm", function() {
+  grunt.registerMultiTask('guetzli', "Compresses JPG and PNG images according to Google's Guetzli algorithm", function() {
     /**
      * Retrieves defined options.
      */
