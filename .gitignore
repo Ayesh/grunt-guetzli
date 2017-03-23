@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 .idea
 tmp
+yarn.lock
 
 # Runtime data
 pids
