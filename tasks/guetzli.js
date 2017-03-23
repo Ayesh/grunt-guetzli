@@ -53,7 +53,7 @@ module.exports = function(grunt) {
           if (options.quality < 84) {
               grunt.fail.warn('Guetzli: Quality must be >= 84 to avoid noticeable artifacts.');
           }
-          args.push('-quality');
+          args.push('--quality');
           args.push(options.quality);
       }
 
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
        * Outputs the rules that have been matched.
        */
       if (options.verbose) {
-        args.push('-verbose');
+        args.push('--verbose');
       }
 
       args.push(f.src);
