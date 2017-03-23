@@ -6,13 +6,9 @@
 
 
 /*
- -h / -help  ............ short help
-  -q <float> ............. quality factor (0:small..100:big)
-  -quiet ................. don't print anything.
-  -version ............... print version number and exit.
-  -v ..................... verbose, e.g. print encoding/decoding times
+  --quality <float> ............. quality factor (84..100)
+  --verbose ............... print version number and exit.
 */
-
 
 'use strict';
 
