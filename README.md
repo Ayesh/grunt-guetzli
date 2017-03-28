@@ -27,9 +27,13 @@ In your `Gruntfile.js` , you can use the new `guetzli` task as following:
                 }
             }
             
-Don't forget to load the plugin as well:
+Then, you need to make Grunt load the new task:
 
     grunt.loadNpmTasks('grunt-guetzli');
+	
+Now, you can add the `grunt-guetzli` to any existing or new Grunt task:
+    
+	grunt.registerTask('default', ['uncss', 'concat_css', 'uglify', 'guetzli']); // Notice the last array element.
 
  
 ## Configuration
